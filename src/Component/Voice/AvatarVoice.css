@@ -1,0 +1,52 @@
+
+.voices-container {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    margin-left: -100px;
+    border: 2px solid red;
+    width: 200%;
+  }
+  
+  .voice-card {
+    width: 100%;
+    max-width: 400px; /* Adjust maximum width as needed */
+    margin-bottom: 20px; /* Adjust margin between cards */
+   
+  }
+  
+  .voice-card img {
+    width: 100%;
+    border-radius: 8px; /* Optional: Add border radius to the image */
+  }
+  
+  .voice-card-content {
+    display: flex;
+    align-items: center;
+   
+  }
+  
+  .voice-card {
+    margin-bottom: 20px; /* Adjust margin between voice cards */
+  }
+  
+.voice-card input[type="checkbox"] {
+    margin-right: 80px; /* Adjust margin between checkbox and voice */
+  }
+
+
+  
+
+  .add-voice  h2{
+    padding: 20px;
+    margin-top: 20px;
+
+  }
+
+  .voice-list{
+    
+  }
+
+  
+
+  

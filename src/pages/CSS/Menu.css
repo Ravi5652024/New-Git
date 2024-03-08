@@ -1,0 +1,10 @@
+.menu{
+    display: flex;
+
+}
+@media(max-width:800px){
+    .menu{
+        flex-direction: column;
+    }
+
+}

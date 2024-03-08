@@ -1,0 +1,118 @@
+.classic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    /* border: 2px solid red; */
+    /* margin-top: 490px; */
+    
+}
+
+.classic h1{
+    color: #171717;
+    margin-top: 115px;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.classic hr{
+    width: 200px;
+    height: 8px;
+    border-radius: 10px;
+    background: #252525;
+    
+
+}
+
+.classic_item{
+    margin-top:30px;
+    /* display: flex; */
+    gap:20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    row-gap: 80px;
+    /* border: 2px solid blue; */
+
+
+}
+
+@media(max-width:1280px){
+    .classic{
+        /* bordser: 2px solid red; */
+    }
+    .classic h1{
+        font-size: 40px;
+    }
+    .classic hr{
+        width: 160px;
+        height: 4px;
+    }
+    .classic_item{
+        margin-top:30px;
+        gap:20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 20px;
+        row-gap: 80px;
+        /* border: 2px solid blue; */
+    }   
+ 
+}
+
+
+@media(max-width:1024px){
+    .classic{
+        /* border: 2px solid red; */
+    }
+    .classic h1{
+        font-size: 30px;
+    }
+    .classic hr{
+        width: 120px;
+        height: 3px;
+    }
+    .classic_item{
+        gap:16px;
+        /* margin-top: 30px; */
+        row-gap: 50px;
+        /* border: 2px solid blue; */
+    }   
+ 
+}
+
+
+@media(max-width:800px){
+    .classic{
+        /* border: 2px solid red; */
+        gap: 6px;
+    }
+    .classic h1{
+        font-size: 20px;
+    }
+    .classic hr{
+        width: 100px;
+    }
+    .classic_item{
+        width: 78%;
+        row-gap: 40px;
+        /* border: 2px solid blue; */
+    }   
+ 
+}
+
+
+@media(max-width:500px){
+    .classic{
+        /* border: 2px solid red; */
+        gap: 6px;
+    }
+    .classic_item{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        row-gap: 30px;
+        /* border: 2px solid blue; */
+    }   
+ 
+}
